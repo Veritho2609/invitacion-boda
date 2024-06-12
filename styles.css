@@ -29,7 +29,7 @@ main {
 }
 
 .couple .photos img {
-    width: 250px !important; /* Ajusta el ancho según lo desees */
+    width: 350px !important; /* Ajusta el ancho según lo desees */
     height: auto !important; /* Mantiene la proporción de la imagen */
 }
 
