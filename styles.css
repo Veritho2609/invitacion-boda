@@ -1,5 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('ruta/a/tu/imagen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
@@ -11,7 +16,7 @@ header {
     color: white;
     text-align: center;
     padding: 2rem 0;
-    font-style: italic; /* Agregamos cursiva al encabezado */
+    font-style: italic;
 }
 
 main {
@@ -22,50 +27,4 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.couple {
-    text-align: center;
-}
-
-.details {
-    margin: 2rem 0;
-}
-
-.rsvp form {
-    display: flex;
-    flex-direction: column;
-}
-
-.rsvp label {
-    margin-top: 1rem;
-}
-
-.rsvp input[type="text"],
-.rsvp input[type="email"],
-.rsvp input[type="number"] {
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-.rsvp input[type="submit"] {
-    background-color: #ff6f61;
-    color: white;
-    border: none;
-    padding: 1rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.rsvp input[type="submit"]:hover {
-    background-color: #e65a50;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #f0f0f0;
-}
-
-.wedding-quote {
-    font-style: italic;
-}
+/* Otros estilos ... */
