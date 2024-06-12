@@ -27,7 +27,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .couple .photos img {
-    width: 300px; /* Ajusta el ancho según lo desees */
+    width: 150px; /* Ajusta el ancho según lo desees */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
