@@ -1,3 +1,4 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     background-image: url('https://Veritho2609.github.io/invitacion-boda/57a9cab384e7f7ef8edefe4f207e67e6.gif');
@@ -26,13 +27,15 @@ main {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .couple .photos img {
-    width: 150px; /* Ajusta el ancho según lo desees */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 150px !important; /* Ajusta el ancho según lo desees */
+    height: auto !important; /* Mantiene la proporción de la imagen */
 }
 
 .location-photos .photos img {
     width: 200px; /* Puedes ajustar las imágenes del lugar por separado si deseas */
     height: auto;
 }
+
 /* Otros estilos ... */
