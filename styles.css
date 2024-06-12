@@ -11,6 +11,7 @@ header {
     color: white;
     text-align: center;
     padding: 2rem 0;
+    font-style: italic; /* Agregamos cursiva al encabezado */
 }
 
 main {
@@ -64,7 +65,7 @@ footer {
     padding: 1rem 0;
     background-color: #f0f0f0;
 }
+
 .wedding-quote {
     font-style: italic;
 }
-
