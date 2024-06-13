@@ -1,13 +1,14 @@
 /* styles.css */
+
 body {
-    font-family: 'Garamond', arial, sans-serif;
+    font-family: 'Garamond', Arial, sans-serif;
     background-image: url('https://Veritho2609.github.io/invitacion-boda/57a9cab384e7f7ef8edefe4f207e67e6.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-color: #FFD700;
-    color: #000000;
+    color: #333; /* Color de texto más oscuro para mejor legibilidad */
     margin: 0;
     padding: 0;
 }
@@ -17,29 +18,46 @@ header {
     background-size: cover; /* Ajusta la imagen para que cubra todo el área del encabezado */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen en el encabezado */
-    color: black;
+    color: #fff; /* Color de texto blanco para contraste */
     text-align: center;
-    padding: 2rem 0;
-    font-style: italic;
-    font-size: 2rem; /* Ajusta el tamaño de la letra a 2rem */
+    padding: 4rem 0; /* Mayor espacio para un encabezado más prominente */
+    font-family: 'Segoe Script', cursive; /* Fuente cursiva para un estilo elegante */
+    font-size: 2.5rem; /* Tamaño de fuente grande para el encabezado */
 }
 
 main {
-    padding: 1rem;
-    max-width: 600px;
+    padding: 2rem;
+    max-width: 800px;
     margin: 0 auto;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente para el contenido principal */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más suave */
+    font-size: 1.2rem; /* Tamaño de fuente ligeramente más pequeño para el contenido */
+    line-height: 1.6; /* Espaciado de línea para mejorar la legibilidad */
 }
 
-.couple .photos img {
-    width: 350px !important; /* Ajusta el ancho según lo desees */
-    height: auto !important; /* Mantiene la proporción de la imagen */
+/* Estilos específicos */
+
+/* Estilo negrita para elementos <strong> y <b> */
+strong, b {
+    font-weight: bold;
 }
 
-.location-photos .photos img {
-    width: 200px; /* Puedes ajustar las imágenes del lugar por separado si deseas */
-    height: auto;
+/* Estilo cursiva para elementos <em> y <i> */
+em, i {
+    font-style: italic;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #8E3A59; /* Color de enlace elegante */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave de color */
+}
+
+a:hover {
+    color: #BD3557; /* Color de enlace más oscuro al pasar el ratón */
 }
 
 /* Otros estilos ... */
+
