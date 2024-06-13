@@ -45,6 +45,13 @@ main h2 {
     color: #8E3A59; /* Color elegante para los títulos */
     text-align: center;
 }
+main h3 {
+    font-family: 'Dancing Script', cursive; /* Fuente cursiva y elegante */
+    font-size: 4rem; /* Tamaño de fuente más grande */
+    color: #8E3A59; /* Color elegante para los títulos */
+    text-align: center;
+}
+
 
 .ceremony-details {
     font-family: 'Playfair Display', serif;
