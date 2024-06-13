@@ -21,6 +21,7 @@ header {
     text-align: center;
     padding: 2rem 0;
     font-style: italic;
+    font-size: 3rem; /* Ajusta el tamaño de la letra a 2rem */
 }
 
 main {
