@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url('https://Veritho2609.github.io/invitacion-boda/Fondo8.jpg');
+    background-image: url('https://Veritho2609.github.io/invitacion-boda/Fondo7.jpg');
     background-size: cover; /* Ajusta la imagen para que cubra todo el área del encabezado */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen en el encabezado */
@@ -39,8 +39,9 @@ main {
 /* Estilo específico para <h2> en <main> */
 main h2 {
     font-family: 'Dancing Script', cursive; /* Fuente cursiva y elegante */
-    font-size: 2rem; /* Tamaño de fuente más grande */
+    font-size: 4rem; /* Tamaño de fuente más grande */
     color: #8E3A59; /* Color elegante para los títulos */
+    text-align: center;
 }
 
 /* Estilos específicos */
