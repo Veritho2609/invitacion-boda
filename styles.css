@@ -43,6 +43,11 @@ main h2 {
     color: #8E3A59; /* Color elegante para los títulos */
     text-align: center;
 }
+.ceremony-details {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: bold;
+}
+
 
 /* Estilos específicos */
 
