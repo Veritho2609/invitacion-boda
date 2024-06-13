@@ -20,9 +20,9 @@ header {
     background-position: center; /* Centra la imagen en el encabezado */
     color: #fff; /* Color de texto blanco para contraste */
     text-align: center;
-    padding: 4rem 0; /* Mayor espacio para un encabezado más prominente */
+    padding: 3rem 0; /* Mayor espacio para un encabezado más prominente */
     font-family: 'Segoe Script', cursive; /* Fuente cursiva para un estilo elegante */
-    font-size: 2.5rem; /* Tamaño de fuente grande para el encabezado */
+    font-size: 2rem; /* Tamaño de fuente grande para el encabezado */
 }
 
 main {
